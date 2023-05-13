@@ -1,0 +1,413 @@
+/*-----------------------------------=========Main-Style-Sheet=========----------------------------------------*/
+
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-BookOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-BookOblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-Condensed.woff') format('woff'),
+      url('webfonts/FuturaStd-Condensed.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondensedExtraBd.woff') format('woff'),
+      url('webfonts/FuturaStd-CondensedExtraBd.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondensedBoldObl.woff') format('woff'),
+      url('webfonts/FuturaStd-CondensedBoldObl.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondensedLightObl.woff') format('woff'),
+      url('webfonts/FuturaStd-CondensedLightObl.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondensedLight.woff') format('woff'),
+      url('webfonts/FuturaStd-CondensedLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-ExtraBold.woff') format('woff'),
+      url('webfonts/FuturaStd-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondExtraBoldObl.woff') format('woff'),
+      url('webfonts/FuturaStd-CondExtraBoldObl.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondensedBold.woff') format('woff'),
+      url('webfonts/FuturaStd-CondensedBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-CondensedOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-CondensedOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-Book.woff') format('woff'),
+      url('webfonts/FuturaStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-Bold.woff') format('woff'),
+      url('webfonts/FuturaStd-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-LightOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-LightOblique.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-Medium.woff') format('woff'),
+      url('webfonts/FuturaStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-HeavyOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-HeavyOblique.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-MediumOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-MediumOblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-BoldOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-BoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-ExtraBoldOblique.woff') format('woff'),
+      url('webfonts/FuturaStd-ExtraBoldOblique.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-Light.woff') format('woff'),
+      url('webfonts/FuturaStd-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura Std';
+  src: url('webfonts/FuturaStd-Heavy.woff') format('woff'),
+      url('webfonts/FuturaStd-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+:root {
+  --theme__color1: #FDAB34;
+  --theme__color2: #03254C;
+  --futura-std: 'Futura Std';
+}
+*,::before,::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #000000;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--futura-std);
+}
+a, a:active, a:focus, a:active, a:hover {
+  text-decoration:none !important;
+  color: inherit;
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus {
+  outline: none;
+}
+::placeholder {
+  opacity: 1;
+}
+:focus::placeholder {
+  opacity: 0;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+iframe {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: 700;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+  margin-bottom: 15px;
+}
+p:last-child{
+  margin: 0;
+}
+.main-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1155px;
+  }
+}
+
+
+
+/* header */
+.header-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.header-in {
+  padding: 40px 0;
+}
+.header-section__inner {
+
+}
+.header-logo {
+
+}
+.header-logo img {
+
+}
+/* header-end */
+
+
+
+
+
+
+
+/* --preloader-- */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid var(--theme__color1);
+  border-top-color: #e2eefd;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+/* --preloader-end-- */
+
+
+/* ---header-section--- */
+
+/* ---header-section---end */
+
+
+
+/* ---hero-section--- */
+.hero-section {
+  padding: 300px 0;
+  background-image: -moz-linear-gradient( 22deg, rgb(232,216,198) 0%, rgb(249,249,249) 20%, rgb(216,243,245) 79%, rgb(170,211,226) 100%);
+  background-image: -webkit-linear-gradient( 22deg, rgb(232,216,198) 0%, rgb(249,249,249) 20%, rgb(216,243,245) 79%, rgb(170,211,226) 100%);
+  background-image: -ms-linear-gradient( 22deg, rgb(232,216,198) 0%, rgb(249,249,249) 20%, rgb(216,243,245) 79%, rgb(170,211,226) 100%);
+}
+.hero-section__inner {
+
+}
+.hero__row {
+
+}
+
+.hero__content {
+
+}
+.hero__content .h1 {
+  font-size: 96px;
+  line-height: 1;
+  font-weight: 900;
+}
+.hero__content .h1 .yll {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+.hero__content .h1 .yll::after {
+	content: '';
+	height: 85%;
+	width: 60%;
+	position: absolute;
+	top: 18%;
+	right: -10%;
+	background: url('images/yll-bg.png') no-repeat center center/100% 100%;
+	z-index: -1;
+}
+
+.hero__content p {
+  font-size: 25px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.hero__form {
+
+}
+.hero-form__main
+
+.single-input-x {
+
+}
+.label-x {
+
+}
+.input-x-outer {
+
+}
+.input-x {
+
+}
+/* ---hero-section---end */
